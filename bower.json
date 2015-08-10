@@ -1,0 +1,9 @@
+{
+	"name": "polymer-cdn",
+	"version": "0.0.0",
+	"authors": ["KageKirin <kagekirin@gmail.com>"],
+	"license": "MIT",
+	"dependencies": {
+		"polymer": "Polymer/polymer#^1.0.0"
+	}
+}
