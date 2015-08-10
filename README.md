@@ -38,13 +38,15 @@ or as a CDN (via [RawGit](http://www.rawgit.com)) for simple tests.
 
 Add as a submodule with `git submodule add https://github.com/KageKirin/polymer-cdn.git polymer-cdn`
 
-### CDN
+### CDN (via RawGit)
 
 Although I consider that Github should not be abused as a cheap CDN for production,
 it's perfectly fine to use for dev.
 
 		<script src="//rawgit.com/KageKirin/polymer-cdn/master/core/client/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 		<link rel="import" href="//rawgit.com/KageKirin/polymer-cdn/master/core/client/bower_components/paper-header-panel/paper-header-panel.html" />
+
+Also, see [example](http://rawgit.com/KageKirin/polymer-cdn/master/example.html)
 
 #### Caveats
 
