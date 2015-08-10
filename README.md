@@ -1,9 +1,17 @@
 # Polymer-CDN
 
-The Polymer components.
+The Polymer element catalog.
 
-Repo is used as submodule for other projects,
+Repo to be used as submodule for other projects,
 or as a CDN (via [RawGit](http://www.rawgit.com)) for simple tests.
+
+## Reason for this project
+
+- installation procedure for Polymer and all of its elements is confusing, or impractical at best (that is, when it works);
+- just want to test some elements without going through the installation procedure again;
+- can't use npm, bower, gulp etc at work (because of an overly picky proxy and because changing employers might not be practical atm);
+- want to include Polymer elements into a web page, but want to maintain their version separately;
+- *feel free to add more reasons*
 
 ## Status
 
@@ -30,7 +38,7 @@ or as a CDN (via [RawGit](http://www.rawgit.com)) for simple tests.
 - PolymerElements/platinum-sw 1.0.0
 - PolymerElements/marked-element 1.0.0
 
-*in fact, all elements as listed in the [Polymer catalog](https://elements.polymer-project.org/)*
+*in fact, all elements as listed in the [Polymer catalog](https://elements.polymer-project.org/) at version 1.0.0*
 
 ## Usage
 
